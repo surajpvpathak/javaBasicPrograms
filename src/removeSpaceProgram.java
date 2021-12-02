@@ -6,6 +6,7 @@ public class removeSpaceProgram {
         System.out.println(removeJunk("*******#%@#$% My Name $%#$)#%is Suraj#$@$#$#@$#@$ Pathak$$$"));
     }
 
+
     public static String removeSpaceProgram(String s){
 
       return s.replace(" ","");

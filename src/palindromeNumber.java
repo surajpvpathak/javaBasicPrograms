@@ -24,6 +24,7 @@ public class palindromeNumber {
         }
         System.out.println("the reverse is : " +rev);
 
+
         if(t == rev){
             System.out.println(t + " is palindrome number");
         }

@@ -31,5 +31,6 @@ public class armstrongNumber {
     else{
         System.out.println(t+ " Not Armstrong Number");
     }
+
     }
 }

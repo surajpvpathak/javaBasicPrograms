@@ -22,6 +22,7 @@ public class duplicateValueInArray {
             }
         }
 
+
         System.out.println("**************");
 
         Set<String> set1 = new HashSet<String>();

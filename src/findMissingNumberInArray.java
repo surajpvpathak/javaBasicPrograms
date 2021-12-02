@@ -6,6 +6,7 @@ public class findMissingNumberInArray {
         //then sum of all elements starting from 1 to ending from last element of array
         //find the difference betwenn this two --> it will be our missing number
 
+
         int sum = 0;
         for(int i = 0;i<a.length;i++){
             sum = sum + a[i];

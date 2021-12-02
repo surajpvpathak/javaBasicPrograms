@@ -7,6 +7,7 @@ public class pyramidClass {
         pyramidClassReverse(5);
     }
 
+
     public static void pyramidClass(int n) {
         for (int i = 0; i <= n; i++) {
 

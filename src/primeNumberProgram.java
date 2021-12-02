@@ -10,6 +10,7 @@ public class primeNumberProgram {
         int m = 0;
         int flag = 0;
 
+
         m = number / 2;
 
         if (number == 0 || number == 1) {

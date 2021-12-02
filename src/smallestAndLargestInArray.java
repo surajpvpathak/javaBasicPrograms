@@ -10,7 +10,6 @@ public class smallestAndLargestInArray {
 
         System.out.println("Largest Number_Arrys: " +getLargest(arr));
         System.out.println("Smallest Number_Arrays: " + getSmallest(arr));
-
     }
 
     public static int returnLargestNumber(int arr[]) {

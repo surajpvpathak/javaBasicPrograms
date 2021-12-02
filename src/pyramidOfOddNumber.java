@@ -5,6 +5,7 @@ public class pyramidOfOddNumber {
         actualPyramid(5);
     }
 
+
     public static void pyramidOfOddNumber(int n) {
 
         int m = n % 2;
