@@ -1,10 +1,15 @@
 package Collection;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class ReverseArray {
 	 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String[] things = {"apples","noobs","pwnge","bacon","goATS"};
+		String[] things = {"abc","def","ghi","jkl"};
 		reverseArrayByForLoop(things);
 		reverseArrayWithAnotherArrayMethod(things,things.length);
 	}
@@ -24,7 +29,7 @@ public class ReverseArray {
 		String x;
 		for(int i = a.length ; i>0;i--) {
 			x=a[i-1];
-			System.out.println(x);
+			System.out.printf("%s\n",x);
 		}
 	}
 	

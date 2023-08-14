@@ -6,10 +6,11 @@ public class averageOfNumbers {
 	int total = 0;
 	int counter = 0;
 	double average;
+	int number;
 	
 	public void avg() {
 		Scanner input = new Scanner(System.in);
-		grade = input.nextInt();
+		number = input.nextInt();
 	do {
 		total = total+grade;
 		
@@ -18,7 +19,7 @@ public class averageOfNumbers {
 		System.out.println("sum is " +total);
 		grade++;
 		counter++;
-	}while (grade <= 10);
+	}while (grade <= number);
 	
 	average = total/counter;
 	System.out.println("average is " +average);
@@ -42,7 +43,7 @@ public class averageOfNumbers {
 		
 		System.out.println();
 		System.out.println("Average using Variable Length Arguments: ");
-		System.out.println(object.averageProgramUsingVariableLengthArguments(22,33,44,55));
+	//	System.out.println(object.averageProgramUsingVariableLengthArguments(22,33,44,55));
 		
 	}
 }

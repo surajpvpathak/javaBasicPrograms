@@ -1,11 +1,10 @@
 package StringFunctions;
 
-public class otherStringFunctions {
-
+public  class otherStringFunctions {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String[] sa = {"funk","chunk","furry","baconator"}; 
-		
+
 		//startswith fu
 		
 		for(String x : sa) {

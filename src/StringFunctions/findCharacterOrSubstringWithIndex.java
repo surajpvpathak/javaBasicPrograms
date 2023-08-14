@@ -1,14 +1,13 @@
 package StringFunctions;
 
 public class findCharacterOrSubstringWithIndex {
-	
 	public static void main(String[] args) {
 		charOrSubString();
 		concatFunction();
 		replaceFunction();
 		toUpperAndLowerCase();
 		trimFunction();
-		
+
 	}
 	
 	public static void charOrSubString() {
